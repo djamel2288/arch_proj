@@ -1,0 +1,214 @@
+/*#g400 :hover{
+    animation: khorcha 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes khorcha {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+*/
+
+
+
+/*******************/
+/** Landing page **/
+.img_svg {
+    position: relative;
+}
+
+.img_svg svg {vertical-align: middle;}
+
+/* button landing page */
+.img_svg .content_img_svg {
+    position: absolute;
+    bottom: 4vw;
+    color: #f1f1f1;
+    padding: 3.5vw;
+}
+
+
+
+.landing, .h_land, .p_land{
+    font-size: 2.5vw;
+}
+
+@media screen and (min-width: 992px) {
+    .p_land{
+        font-size: 18px;
+    }
+    .h_land{
+        font-size: 36px;
+    }
+    .landing{
+        font-size: 20px;
+    }
+
+    .img_svg .content_img_svg {
+        position: absolute;
+        bottom: 150px;
+        color: #f1f1f1;
+        padding: 65px;
+        width: 600px;
+    }
+}
+
+/*******************/
+/* Drugs */
+/*Drugs'Titel*/
+/*.drugs, body{
+    background: linear-gradient(to bottom left, #66ff66 0%, #0066ff 100%);
+}*/
+/* Drugs's Type */
+.med{
+    max-height: 600px;
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 10%;
+    left: 0;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+    filter: grayscale(1) blur(3px);
+    -webkit-filter: grayscale(1) blur(3px);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 37px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.infor {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    font-size: 36px;
+    border: 3px solid #51dbdb;
+    margin: 50px 0 0 0;
+    background: #5f5bd3;
+}
+
+.hovereffect a.infor:hover {
+    /*background: linear-gradient(to bottom left, #66ff66 0%, #0066ff 100%);*/
+    box-shadow: 0 0 10px #2cbdbf;
+}
+
+.hovereffect a.infor, .hovereffect h2 {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hovereffect:hover a.infor, .hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*******************/
+/* contact */
+.user_contact{
+    background-image: url(../assets/logo_health.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+}
+
+form label {
+    font-size: 28px;
+    color: white;
+}
+
+form input, textarea{
+    background-color: transparent !important;
+    border: 2px solid white !important;
+    color: white !important;
+}
+
+form button :hover{
+    color: black !important;
+}
+
+input::placeholder {
+    color: white !important;
+    opacity: 0.5 !important;
+}
+
+/* social media */
+.fab, .fas{
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.fab:hover, .fas:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-square {
+    color: #3B5998;
+}
+
+.fa-envelope{
+    color: #ba8b00;
+}
+
+.fa-map-marker-alt {
+    color: #bd2130;
+}
+
+.fa-mobile-alt{
+    color: #1c7430;
+}
+
+.p_social_media{
+    color: white;
+    font-size: 18px;
+}
+
+.us_contact{
+    background: linear-gradient(to bottom left, #66ff66 0%, #0066ff 80%);
+}
