@@ -157,28 +157,28 @@
     background-size: 250px;
 }
 
-form label {
+form .user_label {
     font-size: 28px;
     color: white;
 }
 
-form input, textarea{
+form .user_imput, textarea{
     background-color: transparent !important;
     border: 2px solid white !important;
     color: white !important;
 }
 
-form button :hover{
+form .btn_user :hover{
     color: black !important;
 }
 
-input::placeholder {
+.user_imput::placeholder {
     color: white !important;
     opacity: 0.5 !important;
 }
 
 /* social media */
-.fab, .fas{
+.so_med{
     padding: 10px;
     text-align: center;
     font-size: 36px;
@@ -211,4 +211,12 @@ input::placeholder {
 
 .us_contact{
     background: linear-gradient(to bottom left, #66ff66 0%, #0066ff 80%);
+}
+
+
+/************************/
+/* diagno */
+/* card */
+.card-text{
+    font-size: 22px;
 }
