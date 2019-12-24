@@ -58,6 +58,41 @@
         width: 600px;
     }
 }
+/**********************/
+/* Appointment */
+.zrokiya_img{
+    position: relative;
+}
+.zrokiya{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #27afaf;
+    opacity: 0.3;
+}
+
+.content_appointment{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+
+}
+
+.title_app{
+    font-size: 7vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .img-responsive{
+        min-height: 400px;
+    }
+    .title_app{
+        font-size: 30px;
+    }
+}
 
 /*******************/
 /* Drugs */
