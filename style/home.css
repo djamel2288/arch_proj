@@ -148,7 +148,7 @@
     background: rgba(0, 0, 0, 0.6);
 }
 
-.hovereffect a.infor {
+.hovereffect input.infor {
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
@@ -158,12 +158,12 @@
     background: #5f5bd3;
 }
 
-.hovereffect a.infor:hover {
+.hovereffect input.infor:hover {
     /*background: linear-gradient(to bottom left, #66ff66 0%, #0066ff 100%);*/
     box-shadow: 0 0 10px #2cbdbf;
 }
 
-.hovereffect a.infor, .hovereffect h2 {
+.hovereffect input.infor, .hovereffect h2 {
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
@@ -175,7 +175,7 @@
     text-transform: uppercase;
 }
 
-.hovereffect:hover a.infor, .hovereffect:hover h2 {
+.hovereffect:hover input.infor, .hovereffect:hover h2 {
     opacity: 1;
     filter: alpha(opacity=100);
     -webkit-transform: scale(1);
